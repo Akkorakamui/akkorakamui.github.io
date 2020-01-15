@@ -1,0 +1,60 @@
+.background{
+  background: url('black.jpg')
+  center center fixed;background-size: cover;
+  max-width: 1000px;
+  margin: auto;
+  background-color: rgba(0, 0, 0, .5);
+  display: block;
+  padding: 15px;
+}
+
+*{
+  color: white;
+  font-family: 'Playfair Display', serif;
+
+}
+
+span{
+  margin: 5px;
+}
+
+.story:hover{
+  animation: scale 200ms ease-in-out forwards;
+  cursor: pointer;
+}
+
+.story{
+  margin-bottom: 10px;
+  box-shadow: 0px 0px 8px 5px rgba(0,0,0,0.75);
+  background-color: #1D1D1D;
+  display: inline-flex;
+  height:225px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+h1{
+  font-size: 90px;
+  margin-top: 2px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  margin-bottom: 2px;
+  text-align: center;
+
+}
+
+@keyframes scale {
+  to {
+    transform: scale(1.1);
+  }
+}
+
+h2{
+  margin-top: 0px;
+  text-align: center;
+}
+
+hr{
+  margin-bottom: 30px;
+  background-color: #ff007f;
+}
