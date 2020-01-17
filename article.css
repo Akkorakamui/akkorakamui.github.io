@@ -14,25 +14,6 @@
 
 }
 
-span{
-  margin: 5px;
-}
-
-.story:hover{
-  animation: scale 200ms ease-in-out forwards;
-  cursor: pointer;
-}
-
-.story{
-  margin-bottom: 10px;
-  box-shadow: 0px 0px 8px 5px rgba(0,0,0,0.75);
-  background-color: #1D1D1D;
-  display: inline-flex;
-  height:225px;
-  margin-left: 5px;
-  margin-right: 5px;
-}
-
 h1{
   font-size: 90px;
   margin-top: 2px;
@@ -43,18 +24,7 @@ h1{
 
 }
 
-@keyframes scale {
-  to {
-    transform: scale(1.1);
-  }
-}
-
 h2{
   margin-top: 0px;
   text-align: center;
-}
-
-hr{
-  margin-bottom: 30px;
-  background-color: #ff007f;
 }
