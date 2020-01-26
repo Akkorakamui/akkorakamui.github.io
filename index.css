@@ -15,7 +15,7 @@
 }
 
 .story:hover{
-  animation: scale 200ms ease-in-out forwards;
+  transform: scale(1.1);
   cursor: pointer;
 }
 
@@ -27,6 +27,7 @@
   height:225px;
   margin-left: 5px;
   margin-right: 5px;
+  transition: transform .1s ease;
 }
 
 h1{
@@ -37,12 +38,6 @@ h1{
   margin-bottom: 2px;
   text-align: center;
 
-}
-
-@keyframes scale {
-  to {
-    transform: scale(1.1);
-  }
 }
 
 h2{
